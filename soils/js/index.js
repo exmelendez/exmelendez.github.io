@@ -8,3 +8,14 @@ $(document).ready(function () {
         }
     });
 });
+
+const instaIcon = document.querySelectorAll('header>div>i')[0];
+const emailIcon = document.querySelectorAll('header>div>i')[1];
+
+instaIcon.addEventListener('click', () => {
+    window.location.href = 'https://www.instagram.com';
+});
+
+emailIcon.addEventListener('click', () => {
+    window.location.href = 'mailto:test@test.com';
+});

@@ -8,7 +8,6 @@ body, html {
 }
 
 .section-spacer {
-    /* margin-top: 10em; */
     height: 4em;
 }
 
@@ -53,15 +52,41 @@ header i {
     cursor: pointer;
 }
 
+header i:hover {
+    color: rgb(177, 146, 19);
+}
+
 header img {
-    width: 10%;
+    width: 7%;
+    height: auto;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 983px) {
+  header img {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+  header img {
+    width: 17%;
+  }
+}
+
+.start-a-i {
+    color: #fff;
+    text-decoration: none;
 }
 
 .change {
     background-color: #fff;
     color: #000;
     transition: all ease .3s;
+}
+
+.a-i-change {
+    color: #000;
 }
 
 .bg {
@@ -89,7 +114,7 @@ header img {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 300%;
+    font-size: 450%;
     font-weight: 700;
     color: #fff;
     text-align: center;
